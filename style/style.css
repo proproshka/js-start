@@ -1,0 +1,123 @@
+.container-first {
+	display: flex;
+	flex-flow: column-reverse wrap;
+	align-content: flex-start;
+	width: 850px;
+	height: 300px;
+	padding: 0px 0px 0px 20px;
+	background-color: green;
+}
+
+.zero-item {
+	border: solid white;
+	background-color: green;
+	padding-top: 119px;
+	padding-bottom: 115px;
+	text-align: center;
+	width: 50px;
+	font-size: 30px;
+	color: white;
+}
+
+.red-item {
+	border: solid white;
+	background-color: red;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	width: 50px;
+	font-size: 30px;
+	color: white;
+}
+
+.black-item {
+	border: solid white;
+	background-color: black;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	width: 50px;
+	font-size: 30px;
+	color: white;
+}
+
+.column-item {
+	border: solid white;
+	background-color: green;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	width: 50px;
+	font-size: 30px;
+	color: white;
+}
+
+.container-second {
+	display: flex;
+	background-color: green;
+	width: 798px;
+	height: 70px;
+	flex-flow: row wrap;
+	align-content: flex-start;
+	padding: 0px 0px 0px 72px;
+
+}
+
+.doz-item {
+	flex-basis: 220px;
+	border: solid white;
+	background-color: green;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	text-align: center;
+	height: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+.container-third {
+	display: flex;
+	background-color: green;
+	width: 798px;
+	height: 150px;
+	flex-flow: row wrap;
+	align-content: flex-start;
+	padding: 0px 0px 0px 72px;
+}
+
+.outside-section {
+	flex-basis: 107px;
+	border: solid white;
+	background-color: green;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	text-align: center;
+	height: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+.rhomb-red {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: red;
+	border: solid white;
+	transform: rotate(45deg);
+}
+
+.rhomb-black {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	border: solid white;
+	transform: rotate(45deg);
+}
+
+.value {
+-moz-transform: rotate(-90deg);
+-webkit-transform: rotate(-90deg); 
+-o-transform: rotate(-90deg);
+/*	transform: rotate(-90deg); */
+}
