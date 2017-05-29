@@ -121,3 +121,39 @@
 -o-transform: rotate(-90deg);
 /*	transform: rotate(-90deg); */
 }
+
+.imgwhel {
+    width: 234px;
+    height: 234px;
+    background-color: green;
+}
+
+.green-item {
+    border: solid green;
+    background-color: green;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    width: 41px;
+    font-size: 23px;
+    color: yellow;
+    height: 1px;
+}
+
+.table1 {
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border-color: red;
+    border-style: inset;
+    padding: 0px;
+    border-width: 1px;
+}
+
+.tr1 {
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+    border-color: yellow;
+    border-style: inset;
+    padding: 0px;
+    border-width: 1px;
+    height: 1px;
+    vertical-align: center;
+}
